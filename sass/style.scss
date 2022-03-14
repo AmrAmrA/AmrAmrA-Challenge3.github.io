@@ -1,0 +1,50 @@
+@import '__basicReset'; 
+@import '__mixins'; 
+main {
+   @include placementMainContainer; 
+}
+.central_bloc {
+    @include styleFAQContainer; 
+}
+.woman_desktop {
+    @include styleWomanSVG; 
+}
+.at_image {
+    @include atLogo; 
+}
+.questions_side {
+    margin: 100px 80px 0px 0px;
+    width: 90%;
+}
+h1{
+   @include FAQTitle
+}
+.question {
+    @include questionStyle; 
+}
+.active > .answer {
+    display: block;
+}
+.question_arrow {
+    display: flex; 
+    justify-content: space-between; 
+    cursor: pointer;
+    transition: 0.3s;
+}
+.question_arrow .arrow{
+    align-self: center;
+    transition: transform 0.2s ease-in-out;
+}
+.active img {
+    transform: rotate(180deg);
+}
+.answer{
+    @include styleAnswer; 
+}
+hr {
+    margin-bottom: 5px;
+}
+.attribution {
+    @include styleFooter; 
+}
+@import '__breakPoints'; 

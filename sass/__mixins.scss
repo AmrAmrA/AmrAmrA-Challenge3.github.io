@@ -1,0 +1,57 @@
+@mixin placementMainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 100%;
+}
+@mixin styleFAQContainer {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 550px;
+    border-radius: 10px;
+    display: flex;
+    background-image: url(images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: -136px -391px;
+}
+@mixin styleWomanSVG {
+    background-image: url(images/illustration-woman-online-desktop.svg);
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-left: -57px;
+    margin-top: 74px;
+    width: 100%;
+}
+@mixin atLogo {
+    position: relative;
+    top: 140px;
+    left: -20px;
+}
+
+@mixin FAQTitle {
+    margin-bottom: 20px;
+    letter-spacing: 0.2rem;
+    font-weight: 700;
+    font-size: 25px;
+}
+@mixin questionStyle {
+    color: gray;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 400;
+}
+@mixin styleAnswer {
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    display: none;
+    margin: 15px 0px;
+}
+@mixin styleFooter {
+    text-align: center;
+    font-family: 'Kumbh sans', sans-serif;
+    font-size: 0.9rem;
+    color: white;
+    margin: 15px 0px 10px 0px;
+}
