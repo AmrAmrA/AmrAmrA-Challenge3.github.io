@@ -65,6 +65,7 @@ h1 {
   letter-spacing: 0.2rem;
   font-weight: 700;
   font-size: 25px;
+  color: black;
 }
 
 .question {
@@ -100,6 +101,7 @@ h1 {
   font-weight: 400;
   display: none;
   margin: 15px 0px;
+  font-family: "Open Sans", sans-serif;
 }
 
 hr {
